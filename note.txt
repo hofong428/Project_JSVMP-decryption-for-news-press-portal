@@ -1,0 +1,16 @@
+
+1. code complement
+F.getUri(e) : '/search/suggest/hot_words/'
+o = {'url': 'https://www.toutiao.com/search/suggest/hot_words/'}
+
+window.byted_acrawler.sign(o)
+
+TypeError: Cannot read properties of undefined (reading 'length')
+
+2. browser environment complement
+  -- selenium
+  -- flask/ fastapi
+
+3. Use jsdom
+simulate complement environment
+--low efficiency, but good for webapi
